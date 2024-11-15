@@ -273,15 +273,8 @@ export function PopupWidget() {
                         id="result"
                       >
                         <span>
-                          Powered by{" "}
-                          <a
-                            href="https://Web3Forms.com"
-                            className="text-gray-600"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Web3Forms
-                          </a>
+                          Powered by
+                            Nicolas
                         </span>
                       </p>
                     </form>
@@ -306,7 +299,6 @@ export function PopupWidget() {
                       <h3 className="py-5 text-xl text-green-500">
                         Message sent successfully
                       </h3>
-                      <p className="text-gray-700 md:px-3">{Message}</p>
                       <button
                         className="mt-6 text-indigo-600 focus:outline-none"
                         onClick={() => reset()}

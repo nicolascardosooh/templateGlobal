@@ -6,9 +6,9 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    { name: "Inicio", href: "#inicio" },
-    { name: "Serviços", href: "#servicos" },
-    { name: "Quem somos", href: "#quem-somos" },
+    { name: "Home", href: "#home" },
+    { name: "Services", href: "#services" },
+    { name: "About Us", href: "#about" },
   ];
 
   return (
@@ -28,7 +28,7 @@ export const Navbar = () => {
                       height="32"
                       className="w-8"
                     />
-                    <span>SeuNome</span>
+                    <span>YourName and logo</span>
                   </span>
                 </Link>
 
@@ -68,10 +68,10 @@ export const Navbar = () => {
                       </Link>
                     ))}
                     <Link
-                      href="#contato"
+                      href="#contact"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
                     >
-                      Entre em Contato
+                      Contact
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -98,10 +98,10 @@ export const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link
-            href="#contato"
+            href="#contact"
             className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
           >
-            Entre em Contato
+            Contact
           </Link>
           <ThemeChanger />
         </div>

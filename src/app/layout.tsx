@@ -11,8 +11,8 @@ import { PopupWidget }  from "@/components/PopupWidget";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MF Advogado",
-  description: "Advogado",
+  title: "Landing page",
+  description: "landing page",
 };
 
 export default function RootLayout({

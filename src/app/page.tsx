@@ -13,42 +13,42 @@ export default function Home() {
   return (
     <Container>
       <Hero />
-      
+
       <SectionTitle
-        preTitle="Serviços"
-        title="O que oferecemos"
+        preTitle="Services"
+        title="What we offer"
       >
-       Campo para destacar serviços oferecidos pela empresa.
+        Field to highlight services offered by the company.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
+      <div id="about"></div>
       <SectionTitle
-        preTitle="Veja nosso vídeo"
-        title="Saiba como podemos ajudar seu negócio"
+        preTitle="Watch our video"
+        title="know how to we can assist in your project"
       >
-        Esta seção destaca um vídeo promocional ou demonstrativo dos nossos serviços. Analisando o mercado, sabemos que uma landing page com vídeo tem uma taxa de conversão 3% maior. Então, não se esqueça de assistir!
+        This section highlights a promotional video or demonstration of our services. Analyzing the market, we know that a landing page with video has a 3% higher conversion rate. So, don't forget to watch!
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
-        preTitle="Depoimentos"
-        title="O que nossos clientes dizem"
+        preTitle="testimonials"
+        title="What our customers say"
       >
-        Depoimentos são uma ótima maneira de aumentar a confiança e a conscientização da marca. Use esta seção para destacar os depoimentos dos nossos clientes satisfeitos.
+        Testimonials are a great way to build trust and brand awareness. Use this section to highlight testimonials from our satisfied customers.
       </SectionTitle>
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Perguntas Frequentes">
-        Responda às possíveis perguntas dos seus clientes aqui, isso aumentará a taxa de conversão, bem como reduzirá pedidos de suporte ou chat.
+      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+        Answer your customers' potential questions here, this will increase the conversion rate as well as reduce support or chat requests.
       </SectionTitle>
 
       <Faq />
-      
-      <Cta />
+
     </Container>
   );
 }
